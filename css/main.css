@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+}
+
+#content {
+  min-height: calc(100vh - 100px);
+  background-color: #C9C9C9;
+}
+
+@font-face {
+    font-family: defaultFont;
+    src: url(../fonts/Cabin/Cabin-Medium.ttf);
+}
+
+@font-face {
+    font-family: paragraphFont;
+    src: url(../fonts/Questrial/Questrial-Regular.ttf);
+}
+
+html, body {
+    font-family: 'defaultFont', sans-serif;
+    width: 100%;
+    background-color: #3D3D3D;
+}
+
+nav {
+  background-color: #3D3D3D;
+  color: white;
+  width: 100%;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+p {
+  font-family: 'paragraphFont', sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 120%;
+}
+
+.logoHolder__logo {
+  width: 100px;
+  height: 75px;
+  padding: 1%;
+  display: block;
+}
+
+.logoHolder {
+  background-color: #3D3D3D;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 0 1%;
+}
+
+.whig {
+  background-color: #3D3D3D;
+  padding: 15%;
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+
+.projects__beschrijving {
+  background-color: #4A4A4A;
+  color: white;
+  min-width: 50%;
+}
+
+.projects__beschrijving p, .projects__beschrijving h3 {
+  padding: 1% 2%;
+}
+
+.overmij__beschrijving p, .overmij__beschrijving h3 {
+  padding: 1% 2%;
+}
+
+.list__item {
+    float: left;
+    min-width: 10%;
+    cursor: pointer;
+}
+
+.list__item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-color: #E4E4E4;
+    border-style: solid;
+    border-width: 0 0 0 .01em;
+}
+
+.list__item .list__end {
+  border-style: solid;
+  border-width: 0 0.01em 0 0.01em;
+  border-color: #E4E4E4;
+}
+
+.list__item a:hover {
+    background-color: #333333;
+}
+
+.overmij__beschrijving {
+  background-color: #898989;
+  color: white;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #3D3D3D;
+  color: white;
+}
+
+.infooter p {
+  padding: 2%;
+}
+
+.infooter {
+  display: flex;
+}
+
+.projects {
+  display: flex;
+}
+
+.projects__foto__modifier {
+  width: 100%;
+  display: block;
+}
+
+.overmij {
+  display: flex;
+}
+
+.overmij__foto img {
+  width: 100%;
+  display: block;
+}
+
+.infooter__owner {
+  text-align: center;
+  width: 46%;
+}
+
+.backgroundTop img {
+  width: 100%;
+  display: block;
+}
+
+.infooter__socialmedia {
+  padding: 1%;
+  width: 25%;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin: 0 auto;
+  }
+
+  .list__item {
+    width: 33.333%;
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .backgroundTop {
+    display: none;
+  }
+
+  .infooter__owner {
+    width: 100%;
+  }
+
+  .infooter__socialmedia {
+    display: none;
+  }
+
+  .overmij {
+    justify-content: center;
+    display: block;
+  }
+
+  .whig h1 {
+    text-align: center;
+    font-size: 1em;
+    padding: 0;
+    color: white;
+  }
+
+  .projects {
+    display: block;
+    padding-top: 0.5em;
+    background-color: #4A4A4A;
+  }
+
+  .projects__beschrijving {
+    padding: 1% 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+  }
+}
