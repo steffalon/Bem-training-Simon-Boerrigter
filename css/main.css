@@ -192,7 +192,7 @@ footer {
     display: block;
   }
 
-  .whig h1 {
+  .whig__text {
     text-align: center;
     font-size: 1em;
     padding: 0;
